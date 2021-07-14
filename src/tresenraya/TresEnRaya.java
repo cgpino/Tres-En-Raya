@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package tresenraya;
 
 import java.awt.Color;
@@ -165,7 +159,7 @@ public class TresEnRaya extends javax.swing.JFrame {
         menu_opciones.setText("Opciones");
 
         btn_aCercaDe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/About.png"))); // NOI18N
-        btn_aCercaDe.setText("A cerca de");
+        btn_aCercaDe.setText("Acerca de");
         btn_aCercaDe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_aCercaDeActionPerformed(evt);
@@ -549,7 +543,7 @@ public class TresEnRaya extends javax.swing.JFrame {
 
     private void btn_aCercaDeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_aCercaDeActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null,"Aplicación creada con Java Swing\npor Carlos Gómez Pino.","A cerca de",JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null,"Aplicación creada con Java Swing\npor Carlos Gómez Pino.","Acerca de",JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_btn_aCercaDeActionPerformed
 
     private void btn_reiniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_reiniciarActionPerformed
